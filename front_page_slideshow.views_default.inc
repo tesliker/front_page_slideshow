@@ -91,28 +91,6 @@ function front_page_slideshow_views_default_views() {
 
   /* Display: Block */
   $handler = $view->new_display('block', 'Block', 'block_1');
-  $translatables['front_page_slideshow'] = array(
-    t('Master'),
-    t('<none>'),
-    t('more'),
-    t('Apply'),
-    t('Reset'),
-    t('Sort by'),
-    t('Asc'),
-    t('Desc'),
-    t('Items per page'),
-    t('- All -'),
-    t('Offset'),
-    t('« first'),
-    t('‹ previous'),
-    t('next ›'),
-    t('last »'),
-    t('<div class="grid-18">
-<a href="[field_link]">[field_slideshow_image]</a>
-</div>'),
-    t('Page'),
-    t('Block'),
-  );
   $export['front_page_slideshow'] = $view;
 
   return $export;

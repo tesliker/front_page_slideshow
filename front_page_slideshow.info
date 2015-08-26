@@ -16,6 +16,7 @@ dependencies[] = views
 dependencies[] = views_slideshow
 features[ctools][] = views:views_default:3.0
 features[features_api][] = api:2
+features[field_base][] = body
 features[field_base][] = field_link
 features[field_base][] = field_slideshow_image
 features[field_base][] = field_slideshow_type
